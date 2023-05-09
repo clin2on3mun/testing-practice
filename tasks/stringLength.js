@@ -1,5 +1,3 @@
-const stringLength = (str) => {
-   return str.length >= 1 && str.length < 10 ? true: false
-}
+const stringLength = (str) => (!!(str.length >= 1 && str.length < 10));
 
 module.exports = stringLength;

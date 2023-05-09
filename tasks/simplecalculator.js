@@ -1,23 +1,26 @@
 class SimpleCalculator {
-    constructor(num1, num2){
-       this.num1 = num1;
-       this.num2 = num2
-    }
+  constructor(num1, num2) {
+    this.num1 = num1;
+    this.num2 = num2;
+  }
 
-    add(num1, num2){
-        return num1 + num2;
-    }
-    subtract(num1, num2){
-        return num1 - num2;
-    }
-    division(num1, num2){
-        return num1 / num2;
-    }
-    multiplication(num1, num2){
-        return num1 * num2;
-    }
-     
+  add() {
+    return this.num1 + this.num2;
+  }
+
+  subtract() {
+    return this.num1 - this.num2;
+  }
+
+  division() {
+    return this.num1 / this.num2;
+  }
+
+  multiplication() {
+    return this.num1 * this.num2;
+  }
 }
 
-let arthimetic = new SimpleCalculator()
+const arthimetic = new SimpleCalculator(4,2);
+
 module.exports = arthimetic;

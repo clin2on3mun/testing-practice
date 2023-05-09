@@ -1,5 +1,5 @@
-let capitalize = require('./capitalize');
+const capitalize = require('./capitalize');
 
 test('capitalize string', () => {
-    expect(capitalize('umbrella')).toBe('Umbrella')
+  expect(capitalize('umbrella')).toBe('Umbrella');
 });
