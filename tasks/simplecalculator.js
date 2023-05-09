@@ -21,6 +21,6 @@ class SimpleCalculator {
   }
 }
 
-const arthimetic = new SimpleCalculator(4,2);
+const arthimetic = new SimpleCalculator(4, 2);
 
 module.exports = arthimetic;
